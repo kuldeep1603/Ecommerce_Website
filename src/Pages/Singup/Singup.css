@@ -1,0 +1,24 @@
+.singup .right {
+    padding: 0px 100px;
+}
+
+
+@media screen and (max-width:991px) {
+    .singup .right {
+        padding: 0px;
+    }
+}
+
+
+@media screen and (max-width:840px) {
+    .singup .right {
+        padding: 40px;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .singup .right {
+        padding: 20px 40px;
+    }
+}

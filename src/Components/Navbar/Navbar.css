@@ -1,0 +1,36 @@
+header form ::placeholder {
+    font-size  : 13px !important;
+    font-weight: 600 !important;
+}
+
+header .form-control:focus,
+header .form-control:hover {
+    border: 0px !important;
+}
+
+header ul li a.active {
+    border-bottom: 1px solid var(--light-black) !important;
+}
+
+header .account .dropdown-menu {
+    background: var(--black-color) !important;
+    opacity   : 0.8;
+    z-index   : 10000;
+    width     : 250px !important;
+    right     : 0px;
+    padding   : 20px 20px;
+}
+
+header .account .dropdown-menu a {
+    color: var(--white-color) !important;
+}
+
+header .account .dropdown-menu a:hover {
+    background: var(--black-color) !important;
+    opacity   : 0.10 !important;
+    color     : var(--white-color) !important;
+}
+
+header .dropdown-toggle::after {
+    display: none;
+}

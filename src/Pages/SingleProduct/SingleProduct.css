@@ -1,0 +1,23 @@
+.single_product .imgs .main-image img {
+    width     : 100%;
+    height    : 400px;
+    object-fit: contain;
+}
+
+.single_product .imgs ul li img {
+    width     : 100%;
+    height    : 80px;
+    object-fit: contain;
+}
+
+@media screen and (max-width:759px) {
+    .single_product .imgs .main-image img {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .single_product .imgs ul li img {
+        height: 100%;
+    }
+}

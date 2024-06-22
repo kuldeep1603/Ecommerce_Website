@@ -1,0 +1,146 @@
+/* swiper navigation */
+.swiper-button-prev:after,
+.swiper-button-next:after,
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size       : 18px !important;
+    padding         : 10px 14px !important;
+    border-radius   : 100px !important;
+    background-color: var(--secondary-color);
+}
+
+.mySwiper {
+    position: static !important;
+}
+
+.swiper-grid-column>.swiper-wrapper {
+    flex-direction   : row !important;
+    align-items      : baseline !important;
+    /* flex-wrap     : nowrap; */
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width   : 20px !important;
+    color   : var(--black-color) !important;
+    position: absolute !important;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+    left: 89% !important;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    right: 5% !important;
+}
+
+
+/* swiper navigation */
+
+
+/* discountedproducts */
+
+.discountedproducts .swiper-button-prev,
+.discountedproducts .swiper-button-next {
+    top: 20%;
+}
+
+/* discountedproducts */
+
+
+/* explore-products */
+
+.explore-products .swiper-button-prev,
+.explore-products .swiper-button-next {
+    top: 12%;
+}
+
+/* explore-products */
+
+
+/* .Category  */
+
+
+.Category .swiper-button-prev,
+.Category .swiper-button-next {
+    top: 28%;
+}
+
+/* Category */
+
+
+/* music-banner */
+
+.music-banner img {
+    height    : 400px;
+    object-fit: cover;
+}
+
+@media screen and (max-width:1050px) {
+    .music-banner img {
+        height: 100%;
+    }
+}
+
+/* music-banner */
+
+
+/* home-banner */
+
+.home-banner .left ul {
+    border-right: 1px solid var(--light-black);
+}
+
+/* home-banner */
+
+
+@media screen and (max-width:1200px) {
+
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: 82% !important;
+    }
+
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        right: 11% !important;
+    }
+}
+
+@media screen and (max-width:750px) {
+
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: 78% !important;
+    }
+
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        right: 10% !important;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: 83% !important;
+    }
+
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        right: 4% !important;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: 79% !important;
+    }
+
+}

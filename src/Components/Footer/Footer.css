@@ -1,0 +1,14 @@
+footer .input-group .form-control {
+    border: 1px solid var(--tertiary-color) !important;
+    border-radius: 4px !important;
+    border-right: 0px !important;
+}
+footer .input-group .btn{
+    border: 1px solid var(--tertiary-color) !important;
+    color: var(--tertiary-color) !important;
+    border-left: 0px !important;
+}
+footer ::placeholder{
+    color: var(--tertiary-color) !important;
+    font-size: 12px;
+}

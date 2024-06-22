@@ -1,0 +1,9 @@
+.cart .product {
+    width: 10%;
+}
+
+.cart table img {
+    width     : 50px;
+    object-fit: contain;
+    height    : 50px;
+}
